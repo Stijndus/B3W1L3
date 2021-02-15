@@ -8,11 +8,14 @@
 </head>
 <body>
     <?php
-    
-    for($i=0;$i<=10;$i++){
-        echo $i * 6, " ";
-    }
+    $array = [3,4,8,12];
 
+    foreach($array as $value){
+        for($i = 0;$i <= 10; $i++){
+            echo $i * $value, " ";
+        }
+        echo "<br>";
+    }
     ?>
 </body>
 </html>

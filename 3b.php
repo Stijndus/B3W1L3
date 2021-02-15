@@ -12,7 +12,7 @@
 
     foreach($array as $value){
         for($i = 0;$i <= 10; $i++){
-            echo $i * $value, " ";
+            echo $i + $value, " ";
         }
         echo "<br>";
     }
